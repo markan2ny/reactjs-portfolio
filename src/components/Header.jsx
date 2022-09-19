@@ -26,13 +26,13 @@ const Navbar = () => {
         initial={{ x: 500, opacity: 0, scale: 0.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}
         transition={{ duration: 1.5 }}
-        className="flex-row flex items-center text-gray-300"
+        className="flex-row flex items-center text-gray-500"
       >
         <SocialIcon
           network="email"
-          fgColor="gray"
+          fgColor="#F2D388"
           bgColor="transparent"
-          className="cursor-pointer"
+          className="cursor-pointer animate-pulse"
         />
         <p className="hidden md:inline-flex uppercase">Get In Touch</p>
       </motion.div>
